@@ -1,0 +1,8 @@
+KN\Entity\Sporty:
+    sporty1:
+        __calls:
+            - setOwningTeam: []
+
+KN\Entity\SportyShareCode:
+    code1:
+        __construct: [ "@sporty1" ]
